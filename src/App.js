@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <img src={BioI} alt="bio-img" />
+      <img className="bio-img" src={BioI} alt="bio-img" />
       <div className="box">
         <p className="box-paragraph">
           Samaa Abu Allaban, currently in Gaza is a visual artist whose dynamic
