@@ -1,0 +1,6 @@
+/* src/components/Gallery.css */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

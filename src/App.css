@@ -1,0 +1,26 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  background-image: url("../src/images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  width: 70%;
+  margin: 0 auto;
+  /* background-color: #55555533; */
+}
+
+.box-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.box-paragraph {
+  font-size: 1rem;
+  color: #000000;
+  font-family: sans-serif;
+}
