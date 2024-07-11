@@ -1,4 +1,5 @@
 /* src/App.css */
+
 .App {
   text-align: center;
   background-image: url("../src/images/bg.jpeg");
@@ -20,10 +21,19 @@
 }
 
 .box-paragraph {
+  text-align: left !important;
   font-size: 1rem;
   color: #000000;
   font-family: sans-serif;
 }
 .bio-img {
-  width: 80%;
+  width: 70%;
+}
+@media only screen and (max-width: 600px) {
+  .box-paragraph {
+    font-size: 0.5rem;
+  }
+  .bio-img {
+    width: 80%;
+  }
 }

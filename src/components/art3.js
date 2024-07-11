@@ -5,14 +5,14 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import List1 from "./list1";
+import List3 from "./list3";
 import Slide from "@mui/material/Slide";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-function ArtDialog1({ open, onClose }) {
+function ArtDialog3({ open, onClose }) {
   return (
     <Dialog
       fullScreen
@@ -33,10 +33,10 @@ function ArtDialog1({ open, onClose }) {
         </Toolbar>
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
-        <List1 />
+        <List3 />
       </DialogContent>
     </Dialog>
   );
 }
 
-export default ArtDialog1;
+export default ArtDialog3;

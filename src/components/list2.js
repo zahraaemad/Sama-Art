@@ -22,24 +22,15 @@ import Box from "@mui/material/Box";
 
 export default function List2() {
   return (
-    <Box
-      sx={{
-        width: "96%",
-        height: "100%",
-        overflowY: "scroll",
-        backgroundColor: "#d2cec3",
-        padding: "30px",
-        borderRadius: "10px",
-      }}
-    >
-      <ImageList variant="masonry" cols={3} gap={8}>
+    <Box sx={{ marginLeft: "10%" }}>
+      <ImageList variant="masonry" cols={2} gap={6}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
+              style={{ width: "80%" }}
               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={`${item.img}?w=248&fit=crop&auto=format`}
               alt={item.title}
-              loading="lazy"
             />
           </ImageListItem>
         ))}

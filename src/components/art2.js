@@ -1,35 +1,40 @@
-import React from "react";
+import * as React from "react";
 import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
-import DialogTitle from "@mui/material/DialogTitle";
-import Button from "@mui/material/Button";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import CloseIcon from "@mui/icons-material/Close";
 import List2 from "./list2";
-import useMediaQuery from "@mui/material/useMediaQuery";
-import { useTheme } from "@mui/material/styles";
+import Slide from "@mui/material/Slide";
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
 
 function ArtDialog2({ open, onClose }) {
-  const theme = useTheme();
-  const fullScreen = useMediaQuery(theme.breakpoints.down("md"));
-
   return (
     <Dialog
-      fullScreen={fullScreen}
+      fullScreen
+      TransitionComponent={Transition}
       open={open}
       onClose={onClose}
-      aria-labelledby="responsive-dialog-title"
-      maxWidth="lg"
-      fullWidth={true}
     >
-      <DialogTitle id="responsive-dialog-title">{"Image List"}</DialogTitle>
-      <DialogContent>
+      <AppBar sx={{ position: "relative", background: "white" }}>
+        <Toolbar>
+          <IconButton
+            edge="start"
+            color="inherit"
+            onClick={onClose}
+            aria-label="close"
+          >
+            <CloseIcon sx={{ background: "#c10000" }} />
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+      <DialogContent sx={{ background: "#f4f4f4" }}>
         <List2 />
       </DialogContent>
-      <DialogActions>
-        <Button autoFocus onClick={onClose}>
-          Close
-        </Button>
-      </DialogActions>
     </Dialog>
   );
 }

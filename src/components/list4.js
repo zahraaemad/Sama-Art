@@ -1,8 +1,8 @@
-import Img1 from "../images/a/a1.jpeg";
-import Img2 from "../images/a/a2.jpeg";
-import Img3 from "../images/a/a3.jpeg";
-import Img4 from "../images/a/a4.jpeg";
-import Img5 from "../images/a/a5.jpeg";
+import Img1 from "../images/d/d1.jpg";
+import Img2 from "../images/d/d2.jpg";
+import Img3 from "../images/d/d3.jpg";
+import Img4 from "../images/d/d4.jpg";
+import Img5 from "../images/d/d5.jpg";
 
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";

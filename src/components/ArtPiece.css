@@ -1,24 +1,27 @@
 /* src/components/ArtPiece.css */
 .art-piece {
-  margin: 20px;
-  border-radius: 0.5rem;
-  padding: 10px;
-  width: 300px;
   text-align: center;
-  background-color: #eae4e0;
 }
 
 .art-piece img {
-  max-width: 100%;
-  height: 22rem;
+  height: 24rem;
 }
 
 .art-piece h2 {
-  font-size: 1.5em;
-  margin: 10px 0;
+  font-size: 1em;
 }
 
 .art-piece p {
   font-size: 1em;
-  color: #555;
+}
+@media only screen and (max-width: 600px) {
+  .art-piece img {
+    height: 7rem;
+  }
+  .art-piece h2 {
+    font-size: 0.5em;
+  }
+  .art-piece p {
+    font-size: 0.5em;
+  }
 }
