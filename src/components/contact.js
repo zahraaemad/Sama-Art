@@ -8,12 +8,9 @@ import "./contact.css";
 function ContactInfo() {
   return (
     <Container component="main" maxWidth="md">
-      <Paper
-        elevation={3}
-        sx={{ padding: 4, margin: 4, background: "#cac3b900" }}
-      >
+      <Paper elevation={3} className="paper">
         <p align="center" className="typo">
-          CONTACT INFO
+          Contact Info
         </p>
         <Box sx={{ mt: 3 }}>
           <Grid container spacing={2}>

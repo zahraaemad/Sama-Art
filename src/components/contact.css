@@ -1,13 +1,28 @@
+.typo {
+  font-family: sans-serif;
+}
+.paper {
+  padding: 4rem !important;
+  margin: 4rem !important;
+  background: #cac3b900 !important;
+}
+
 @media (max-width: 600px) {
   .typo {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
+    font-family: sans-serif;
   }
   .b1 {
     font-size: 1em !important;
     margin: 0 1.5rem !important;
   }
   .b2 {
-    font-size: 0.8rem !important;
+    font-size: 0.6rem !important;
+    text-decoration: none !important;
+  }
+  .paper {
+    padding: 1rem !important;
+    margin: 2.5rem !important;
   }
 }
