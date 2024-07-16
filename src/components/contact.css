@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+  .typo {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .b1 {
+    font-size: 1em !important;
+    margin: 0 1.5rem !important;
+  }
+  .b2 {
+    font-size: 0.8rem !important;
+  }
+}

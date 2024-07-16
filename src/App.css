@@ -4,6 +4,13 @@
   text-align: center;
   background-image: url("../src/images/bg.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .box {
@@ -39,7 +46,7 @@
     padding-top: 0px;
     width: 80%;
   }
-  .App p {
+  .box-paragraph {
     font-size: 0.7rem;
   }
 }

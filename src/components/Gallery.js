@@ -82,7 +82,7 @@ const Gallery = () => {
       <ArtDialog2 open={open2} onClose={handleClickOpen2} />
       <ArtDialog3 open={open3} onClose={handleClickOpen3} />
       <ArtDialog4 open={open4} onClose={handleClickOpen4} />
-      <ArtDialog5 open={open4} onClose={handleClickOpen5} />
+      <ArtDialog5 open={open5} onClose={handleClickOpen5} />
     </div>
   );
 };
