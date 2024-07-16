@@ -5,14 +5,14 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import List4 from "./list4";
+import List5 from "./list5";
 import Slide from "@mui/material/Slide";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-function ArtDialog4({ open, onClose }) {
+function ArtDialog5({ open, onClose }) {
   return (
     <Dialog
       fullScreen
@@ -34,16 +34,24 @@ function ArtDialog4({ open, onClose }) {
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
         <p>
-          In this series, I used photos from the Palestinian archives of the
-          first intifada in 1987 and the second intifada in 2000, in which
-          women, children and youth participated. The flame began in this period
-          and still burning to this day.I combined more than one scene together
-          from different periods, creating one spirit for all of them.
+          Amidst an ongoing genocide, this body of work portrays the resilience
+          of Gaza’s people as they fight for sustenance. Despite constant
+          displacement, bombardment and the cutting-off of food and aid, the
+          people of Gaza show remarkable resourcefulness and a fierce will to
+          live. Using collage, these images capture makeshift ovens, inventive
+          cooking methods, and communal meal preparations. Handwritten notes add
+          a personal touch, highlighting the resilience and determination of a
+          community under siege. This body of work presents a powerful narrative
+          of strength and adaptability, and showcases the Gazan spirit’s
+          unyielding defiance through their creative use of scarce resources.
+          These acts of cooking and sharing meals become acts of resistance,
+          underscoring that no matter the aggression they face, their spirit
+          remains unbroken.
         </p>
-        <List4 />
+        <List5 />
       </DialogContent>
     </Dialog>
   );
 }
 
-export default ArtDialog4;
+export default ArtDialog5;

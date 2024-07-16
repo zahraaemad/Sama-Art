@@ -33,6 +33,12 @@ function ArtDialog3({ open, onClose }) {
         </Toolbar>
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
+        <p>
+          Banners is a project that talks about the general opinion of people
+          during the genocide and the repeated sentences that people say in the
+          streets. I took pictures of a group of random banners from the street
+          and modified them and added sentences from the Gaza street.
+        </p>
         <List3 />
       </DialogContent>
     </Dialog>

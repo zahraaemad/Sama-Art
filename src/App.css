@@ -2,8 +2,7 @@
 
 .App {
   text-align: center;
-  background-image: url("../src/images/bg.jpeg");
-  background-repeat: no-repeat;
+  background-image: url("../src/images/bg.jpg");
   background-size: cover;
 }
 
@@ -34,6 +33,13 @@
     font-size: 0.5rem;
   }
   .bio-img {
+    width: 70%;
+  }
+  .box {
+    padding-top: 0px;
     width: 80%;
+  }
+  .App p {
+    font-size: 0.7rem;
   }
 }

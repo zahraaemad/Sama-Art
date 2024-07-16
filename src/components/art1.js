@@ -33,6 +33,14 @@ function ArtDialog1({ open, onClose }) {
         </Toolbar>
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
+        <p>
+          In this series, I have selected pictures from the Palestinian archive
+          for the period before the Nakba. These are pictures of daily practices
+          carried out by Palestinians in their villages, as a kind of archive of
+          life before the Nakba and the clear Palestinian identity of the place
+          and people as well. I have included maps of these villages and their
+          old names that were changed after the occupation.
+        </p>
         <List1 />
       </DialogContent>
     </Dialog>

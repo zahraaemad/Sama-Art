@@ -3,6 +3,7 @@ import React from "react";
 import Gallery from "./components/Gallery";
 import BioI from "./images/ibio.png";
 import "./App.css";
+import ContactInfo from "./components/contact";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         </p>
       </div>
       <Gallery />
+      <ContactInfo />
     </div>
   );
 }
