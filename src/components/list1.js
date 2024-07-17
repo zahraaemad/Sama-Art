@@ -3,6 +3,7 @@ import Img2 from "../images/a/a2.jpeg";
 import Img3 from "../images/a/a3.jpeg";
 import Img4 from "../images/a/a4.jpeg";
 import Img5 from "../images/a/a5.jpeg";
+import Img6 from "../images/a/a6.jpeg";
 
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";
@@ -48,5 +49,9 @@ const itemData = [
   {
     img: Img5,
     title: "img5",
+  },
+  {
+    img: Img6,
+    title: "img6",
   },
 ];
