@@ -1,9 +1,5 @@
 /* src/App.css */
 
-body {
-  transform: scale(1.07);
-  padding-top: 2rem;
-}
 .App {
   text-align: center;
   background-image: url("../src/images/bg.jpg");
