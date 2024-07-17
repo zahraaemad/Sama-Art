@@ -48,6 +48,17 @@ function ArtDialog5({ open, onClose }) {
           underscoring that no matter the aggression they face, their spirit
           remains unbroken.
         </p>
+        <p style={{ marginBottom: "2rem" }}>
+          You could order the prints from{" "}
+          <a
+            href="https://gulfphotoplus.com/collections/editions-palestine?filter.p.m.custom.author=Samaa+Emad"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "black" }}
+          >
+            here
+          </a>
+        </p>
         <List5 />
       </DialogContent>
     </Dialog>
