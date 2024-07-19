@@ -28,7 +28,7 @@ function ArtDialog2({ open, onClose }) {
             onClick={onClose}
             aria-label="close"
           >
-            <CloseIcon sx={{ background: "#c10000" }} />
+            <CloseIcon sx={{ background: "#white", color: "black" }} />
           </IconButton>
         </Toolbar>
       </AppBar>
