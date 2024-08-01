@@ -31,12 +31,12 @@ function App() {
           and the concept of homeland.
         </p>
         <p className="box-paragraph">
-          In addition to her exhibitions, Samaa has authored several children’s
-          books, where her distinctive artistic style merges with heartfelt
-          narratives to inspire and educate young minds. Through her compelling
-          work, Samaa seeks to instill a sense of wonder and curiosity in the
-          next generation, fostering empathy and understanding for diverse lived
-          experiences.
+          In addition to her exhibitions, Samaa has illustrated several
+          children’s books, where her distinctive artistic style merges with
+          heartfelt narratives to inspire and educate young minds. Through her
+          compelling work, Samaa seeks to instill a sense of wonder and
+          curiosity in the next generation, fostering empathy and understanding
+          for diverse lived experiences.
         </p>
       </div>
       <Gallery />
