@@ -33,12 +33,18 @@ function ArtDialog4({ open, onClose }) {
         </Toolbar>
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
+        <p>   "انتفاضة الحجارة"</p>
         <p>
-          In this series, I used photos from the Palestinian archives of the
-          first intifada in 1987 and the second intifada in 2000, in which
-          women, children and youth participated. The flame began in this period
-          and still burning to this day.I combined more than one scene together
-          from different periods, creating one spirit for all of them.
+       
+          During the Stone Intifada, there was no armed resistance;
+          instead, Palestinians resorted to using stones as weapons,
+          bravely confronting tanks and armored vehicles.
+          The Intifada embodies the determination and will of
+          the Palestinian people, with participation from children,
+          the elderly, women, and youth. These images from the Palestinian
+          archive of the two Intifadas serve to revive these scenes at all
+          times and remind everyone of what Palestinians have done and
+          continue to do to reclaim their land
         </p>
         <p style={{ marginBottom: "2rem" }}>
           You could order the prints from{" "}

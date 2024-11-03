@@ -34,13 +34,12 @@ function ArtDialog1({ open, onClose }) {
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
         <p>
-          In this series, I have selected pictures from the Palestinian archive
-          for the period before the Nakba. These are pictures of daily practices
-          carried out by Palestinians in their villages, as a kind of archive of
-          life before the Nakba and the clear Palestinian identity of the place
-          and people as well. I have included maps of these villages and their
-          old names that were changed after the occupation.
+        "Reimagining Homeland" is an artistic project that delves into the intricate tapestry of memory culture in Palestine through collage work. It aims to (re)create and (re)imagine the vibrant life of villages destroyed, emphasizing themes of survival, homeland, history, and identity politics. This project serves as a platform for storytelling, archive-making, and the exploration of oral histories, weaving together elements to foster dialogue, reconciliation.
+The Palestinian narrative is one fraught with struggles for justice, identity, and survival, amidst a landscape marked by displacement and destruction. "Reimagining Homeland," seeks to engage with these complexities through collage, providing a visual and tactile journey through memory and imagination.  
+Drawing upon archival photographs, oral histories, and personal narratives, "Reimagining Homeland" aims to collect a diverse range of materials to incorporate into collage work. These materials serve as the building blocks for compositions that capture the essence of Palestinian life and culture, while also reflecting on the impact of conflict and displacement. I have selected pictures from the Palestinian archive for the period before the Nakba. These are pictures of daily practices carried out by Palestinians in their villages, archive of life before the Nakba and the clear Palestinian identity of the place and people as well. I have included maps of these villages and their old names that were changed after the occupation.
+with techniques such as tearing, cutting, layering, and stitching, the collages become a medium for exploration, dialogue, and healing.
         </p>
+       
         <p style={{ marginBottom: "2rem" }}>
           You could order the prints from{" "}
           <a
