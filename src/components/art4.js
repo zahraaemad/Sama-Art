@@ -46,17 +46,7 @@ function ArtDialog4({ open, onClose }) {
           times and remind everyone of what Palestinians have done and
           continue to do to reclaim their land
         </p>
-        <p style={{ marginBottom: "2rem" }}>
-          You could order the prints from{" "}
-          <a
-            href="https://gulfphotoplus.com/collections/editions-palestine?filter.p.m.custom.author=Samaa+Emad"
-            target="_blank"
-            style={{ color: "black" }}
-            rel="noopener noreferrer"
-          >
-            here
-          </a>
-        </p>
+     
         <List4 />
       </DialogContent>
     </Dialog>

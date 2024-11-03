@@ -40,17 +40,7 @@ Drawing upon archival photographs, oral histories, and personal narratives, "Rei
 with techniques such as tearing, cutting, layering, and stitching, the collages become a medium for exploration, dialogue, and healing.
         </p>
        
-        <p style={{ marginBottom: "2rem" }}>
-          You could order the prints from{" "}
-          <a
-            href="https://gulfphotoplus.com/collections/editions-palestine?filter.p.m.custom.author=Samaa+Emad"
-            target="_blank"
-            style={{ color: "black" }}
-            rel="noopener noreferrer"
-          >
-            here
-          </a>
-        </p>
+      
         <List1 />
       </DialogContent>
     </Dialog>
