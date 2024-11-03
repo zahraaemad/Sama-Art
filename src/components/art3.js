@@ -39,17 +39,7 @@ function ArtDialog3({ open, onClose }) {
           streets. I took pictures of a group of random banners from the street
           and modified them and added sentences from the Gaza street.
         </p>
-        <p style={{ marginBottom: "2rem" }}>
-          You could order the prints from{" "}
-          <a
-            href="https://gulfphotoplus.com/collections/editions-palestine?filter.p.m.custom.author=Samaa+Emad"
-            target="_blank"
-            style={{ color: "black" }}
-            rel="noopener noreferrer"
-          >
-            here
-          </a>
-        </p>
+    
         <List3 />
       </DialogContent>
     </Dialog>

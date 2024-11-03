@@ -33,17 +33,7 @@ function ArtDialog2({ open, onClose }) {
         </Toolbar>
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
-        <p style={{ marginBottom: "2rem" }}>
-          You could order the prints from{" "}
-          <a
-            href="https://gulfphotoplus.com/collections/editions-palestine?filter.p.m.custom.author=Samaa+Emad"
-            target="_blank"
-            style={{ color: "black" }}
-            rel="noopener noreferrer"
-          >
-            here
-          </a>
-        </p>
+    <p>soon</p>
         <List2 />
       </DialogContent>
     </Dialog>
