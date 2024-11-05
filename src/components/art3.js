@@ -34,12 +34,13 @@ function ArtDialog3({ open, onClose }) {
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
         <p>
-          Banners is a project that talks about the general opinion of people
-          during the genocide and the repeated sentences that people say in the
-          streets. I took pictures of a group of random banners from the street
-          and modified them and added sentences from the Gaza street.
+          What the streets of Gaza are saying does not align with
+           what is published in the media. There is no one conveying
+            our true voice, and the signs in the streets do not express our desires.
+             Therefore, in this project, I aim to capture the voice of the Gaza street,
+              particularly the prevailing call among them to stop the genocide.
         </p>
-    
+
         <List3 />
       </DialogContent>
     </Dialog>

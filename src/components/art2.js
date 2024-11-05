@@ -33,7 +33,7 @@ function ArtDialog2({ open, onClose }) {
         </Toolbar>
       </AppBar>
       <DialogContent sx={{ background: "#f4f4f4" }}>
-    <p>soon</p>
+    <p></p>
         <List2 />
       </DialogContent>
     </Dialog>
