@@ -6,11 +6,13 @@ import ArtDialog2 from "./art2";
 import ArtDialog3 from "./art3";
 import ArtDialog4 from "./art4";
 import ArtDialog5 from "./art5";
+import ArtDialog6 from "./art6";
 import Img1 from "../images/a/a1.jpeg";
 import Img2 from "../images/b/b1.jpeg";
 import Img3 from "../images/c/c1.jpeg";
 import Img4 from "../images/d/d2.jpg";
 import Img5 from "../images/e/ee.jpg";
+import Img6 from "../images/f/f6.jpg";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
@@ -21,6 +23,7 @@ const Gallery = () => {
   const [open3, setOpen3] = React.useState(false);
   const [open4, setOpen4] = React.useState(false);
   const [open5, setOpen5] = React.useState(false);
+  const [open6, setOpen6] = React.useState(false);
 
   const handleClickOpen1 = () => {
     setOpen1(!open1);
@@ -38,6 +41,9 @@ const Gallery = () => {
   };
   const handleClickOpen5 = () => {
     setOpen5(!open5);
+  };
+  const handleClickOpen6 = () => {
+    setOpen5(!open6);
   };
 
   return (
@@ -75,6 +81,12 @@ const Gallery = () => {
                 <p>Genocide Kitchen</p>
               </div>
             </Grid>
+            <Grid xs={2}>
+              <div className="art-piece">
+                <img src={Img6} alt="art6" onClick={handleClickOpen6} />
+                <p>A tent for everything</p>
+              </div>
+            </Grid>
           </Grid>
         </Box>
       </Container>
@@ -83,6 +95,7 @@ const Gallery = () => {
       <ArtDialog3 open={open3} onClose={handleClickOpen3} />
       <ArtDialog4 open={open4} onClose={handleClickOpen4} />
       <ArtDialog5 open={open5} onClose={handleClickOpen5} />
+      <ArtDialog6 open={open6} onClose={handleClickOpen6} />
     </div>
   );
 };
