@@ -43,7 +43,7 @@ const Gallery = () => {
     setOpen5(!open5);
   };
   const handleClickOpen6 = () => {
-    setOpen5(!open6);
+    setOpen6(!open6);
   };
 
   return (

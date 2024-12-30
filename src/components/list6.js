@@ -22,7 +22,7 @@ const StyledImg = styled("img")({
   maxWidth: "90%",
 });
 
-export default function List4() {
+export default function List6() {
   const [open, setOpen] = React.useState(false);
   const [selectedImg, setSelectedImg] = React.useState(null);
 
