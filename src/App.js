@@ -23,12 +23,7 @@ function App() {
           Constantly pushing the boundaries of traditional art forms to evoke
           profound emotional depth and provoke critical reflection, Samaa’s
           innovative approach to storytelling and visual representation has been
-          showcased in several exhibitions worldwide. These include the group
-          show at the Institut Français in Gaza in 2021, the City Fragments
-          Group Exhibition at the Institut Français in Gaza in 2023, and the
-          APOLIDIÀ exhibition in Mestre, Italy—a collective international
-          exhibition exploring the profound connection between contemporary art
-          and the concept of homeland.
+          showcased in several exhibitions worldwide.
         </p>
         <p className="box-paragraph">
           In addition to her exhibitions, Samaa has illustrated several
