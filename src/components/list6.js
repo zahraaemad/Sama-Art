@@ -3,6 +3,8 @@ import Img2 from "../images/f/f3.jpg";
 import Img3 from "../images/f/f4.jpg";
 import Img4 from "../images/f/f5.jpg";
 import Img5 from "../images/f/f6.jpg";
+import Img6 from "../images/f/f7.jpg";
+import Img7 from "../images/f/f8.jpg";
 
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";
@@ -85,5 +87,15 @@ const itemData = [
   {
     img: Img5,
     title: "img5",
+  },
+  {
+    img: Img6,
+    title: "img6",
+  }, {
+    img: Img7,
+    title: "img7",
+  }, {
+    img: Img7,
+    title: "img7",
   },
 ];
