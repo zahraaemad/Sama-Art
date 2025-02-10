@@ -5,7 +5,7 @@ import Img4 from "../images/f/f5.jpg";
 import Img5 from "../images/f/f6.jpg";
 import Img6 from "../images/f/f7.jpg";
 import Img7 from "../images/f/f8.jpg";
-
+import Img8 from "../images/f/f9.jpg";
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
@@ -95,7 +95,7 @@ const itemData = [
     img: Img7,
     title: "img7",
   }, {
-    img: Img7,
-    title: "img7",
+    img: Img8,
+    title: "img8",
   },
 ];
