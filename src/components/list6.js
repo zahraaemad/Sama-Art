@@ -95,7 +95,7 @@ const itemData = [
     img: Img7,
     title: "img7",
   }, {
-    img: Img7,
-    title: "img7",
+    img: Img8,
+    title: "img8",
   },
 ];
