@@ -13,7 +13,7 @@ function App() {
           Samaa Abu Allaban, currently in Gaza is a visual artist whose dynamic
           and thought-provoking creations delve into the intersections of art,
           identity, and humanity. Born in Gaza, and holding a
-          Bachelor's degree in Graphic Design, Samaa explores the depths of
+          Diploma's degree in Graphic Design, Samaa explores the depths of
           human experience through a variety of mediums, including animation and
           digital tools. Her work poignantly reflects the complexities of home,
           the resilience of humanity, and the transformative power of oral
