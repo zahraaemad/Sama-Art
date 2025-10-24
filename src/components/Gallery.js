@@ -71,7 +71,7 @@ const Gallery = () => {
             <Grid xs={2}>
               <div className="art-piece">
                 <img src={Img2} alt="art2" onClick={handleClickOpen2} />
-                <p>College</p>
+                <p>Collage</p>
               </div>
             </Grid>
             <Grid xs={2}>
