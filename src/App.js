@@ -10,10 +10,11 @@ function App() {
       <img className="bio-img" src={BioI} alt="bio-img" />
       <div className="box">
         <p className="box-paragraph">
-          Samaa Abu Allaban, currently in Gaza is a visual artist whose dynamic
-          and thought-provoking creations delve into the intersections of art,
+          Samaa Abu Allaban, is a Gazan visual artist who recently left Gaza and 
+          is now based in Paris. 
+          whose dynamic and thought-provoking creations delve into the intersections of art,
           identity, and humanity. Born in Gaza, and holding a
-          Diploma's degree in Graphic Design, Samaa explores the depths of
+          degree in Graphic Design, Samaa explores the depths of
           human experience through a variety of mediums, including animation and
           digital tools. Her work poignantly reflects the complexities of home,
           the resilience of humanity, and the transformative power of oral

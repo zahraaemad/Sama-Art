@@ -18,7 +18,7 @@ function ContactInfo() {
               <Box display="flex" alignItems="center">
                 <PhoneIcon sx={{ mr: 1 }} className="b1" />
                 <Typography variant="body1" className="b2">
-                  +972 59 249 2764
+                  +33 7 53 41 83 98
                 </Typography>
               </Box>
             </Grid>
@@ -34,7 +34,7 @@ function ContactInfo() {
               <Box display="flex" alignItems="center">
                 <LocationOnIcon sx={{ mr: 1 }} className="b1" />
                 <Typography variant="body1" className="b2">
-                  Gaza, Palestine
+                  Paris, France
                 </Typography>
               </Box>
             </Grid>
@@ -50,7 +50,7 @@ function ContactInfo() {
                 <InstagramIcon sx={{ mr: 1 }} className="b1" />
 
                 <Typography variant="body1" className="b2">
-                  samaaemad43
+                  samaa.gaza
                 </Typography>
               </Box>
             </Grid>
